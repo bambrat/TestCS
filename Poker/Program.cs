@@ -8,7 +8,7 @@ namespace Poker
     {
         static int Calculation(List<int> list_)
         {
-            //среднее 
+            //среднее
             var mean = list_.Sum() / list_.Count();
             for (int i = 0; i < list_.Count; i++)
             {
